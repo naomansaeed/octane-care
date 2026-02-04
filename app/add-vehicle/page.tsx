@@ -131,7 +131,7 @@ export default function AddVehiclePage() {
                 name="make"
                 value={formData.make}
                 onChange={handleChange}
-                className={`w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none ${
+                className={`w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none text-gray-900 ${
                   errors.make ? 'border-red-500' : 'border-gray-300'
                 }`}
                 placeholder="Toyota, Honda, Ford, etc."
@@ -153,7 +153,7 @@ export default function AddVehiclePage() {
                 name="model"
                 value={formData.model}
                 onChange={handleChange}
-                className={`w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none ${
+                className={`w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none text-gray-900 ${
                   errors.model ? 'border-red-500' : 'border-gray-300'
                 }`}
                 placeholder="Camry, Civic, F-150, etc."
@@ -175,7 +175,7 @@ export default function AddVehiclePage() {
                 name="year"
                 value={formData.year}
                 onChange={handleChange}
-                className={`w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none ${
+                className={`w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none text-gray-900 ${
                   errors.year ? 'border-red-500' : 'border-gray-300'
                 }`}
                 placeholder="2020"
@@ -198,7 +198,7 @@ export default function AddVehiclePage() {
                 name="currentMileage"
                 value={formData.currentMileage}
                 onChange={handleChange}
-                className={`w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none ${
+                className={`w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none text-gray-900 ${
                   errors.currentMileage ? 'border-red-500' : 'border-gray-300'
                 }`}
                 placeholder="45,000"
@@ -220,7 +220,7 @@ export default function AddVehiclePage() {
                 name="licensePlate"
                 value={formData.licensePlate}
                 onChange={handleChange}
-                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none"
+                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none text-gray-900"
                 placeholder="ABC-123"
                 disabled={isSubmitting}
               />
@@ -236,7 +236,7 @@ export default function AddVehiclePage() {
                 name="notes"
                 value={formData.notes}
                 onChange={handleChange}
-                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none resize-none"
+                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none resize-none text-gray-900"
                 placeholder="Any additional notes about this vehicle..."
                 rows={3}
                 disabled={isSubmitting}
